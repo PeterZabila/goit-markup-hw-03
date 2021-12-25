@@ -1,0 +1,252 @@
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+:root {
+  --base-font: Roboto, sans-serif;
+  --base-font-color: #757575;
+  --second-font-color: #2196F3;
+  --title-font-color: #212121;
+}
+
+body {
+  background-color: white;
+  font-family: var(--base-font);
+}
+
+.logo-title {
+  color: var(--second-font-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.15;
+  cursor: pointer;
+  font-family: Raleway;
+}
+
+.logo-title.studio-span {
+  color: var(--title-font-color);
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--title-font-color);
+  font-family: var(--base-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-item:hover, .nav-item:focus {
+  color: var(--second-font-color);
+}
+
+.nav-item.studio-item {
+  color: var(--second-font-color);
+}
+
+.contact-mail, .contact-tel {
+  color: var(--base-font-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+
+.contact-mail:hover, .contact-mail:focus,
+.contact-tel:hover, .contact-tel:focus
+{
+  color: var(--second-font-color);
+}
+
+.hero {
+  background-color: #2F303A;
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.button {
+  background-color: var(--second-font-color);
+  font-family: var(--base-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background-color:  #188CE8;
+}
+
+.advant {
+  list-style-type: none;
+}
+
+.advant-item-title {
+  font-family: var(--base-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advant-item {
+  font-family: var(--base-font);
+}
+
+.advant-item-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color:var(--base-font-color);
+}
+
+.wwd-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+}
+
+.wwd-item {
+  list-style-type: none;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+}
+
+.team-item {
+  list-style-type: none;
+}
+
+.team-name {
+  color: var(--title-font-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--base-font-color);
+}
+
+
+.footer {
+  background-color: #2F303A;;
+}
+.footer-logo-span {
+  color: white;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  font-style: normal;
+}
+
+.footer-address, .footer-mail, 
+.footer-tel {
+  text-decoration: none;
+}
+
+.footer-mail, .footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+/* .address-info {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+ .addres-info.mail, .addres-info.tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.addres-info.address {
+  color: #FFFFFF;
+}
+ */
+
+ .filter-items {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+ }
+
+ .filter-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #F5F4FA;
+  border-radius: 4px;
+ }
+
+ .filter-item:hover, .filter-item:focus {
+   cursor: pointer;
+ }
+
+ .filter-item:active {
+   background: var(--second-font-color);
+   color: #FFFFFF;
+ }
+
+ .portfolio-items {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+ }
+
+ .portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2.0;
+  letter-spacing: 0.06em;
+  color: var(--title-font-color);
+ }
+
+ .portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--base-font-color);
+ }

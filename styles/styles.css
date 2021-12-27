@@ -18,20 +18,22 @@ body {
   font-family: var(--base-font);
 }
 
-.header {
-  display: flex;
-}
-
 .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.header {
+  display: flex;
+}
+
+
 .logo {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
+  display: flex;
 }
 
 .logo-title {
@@ -268,7 +270,7 @@ body {
   padding-bottom: 60px;
 }
 
-.logo-title {
+.footer-logo-title {
   padding-top: 60px;
   display: block;
   margin-bottom: 20px;

@@ -3,7 +3,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -116,7 +115,6 @@ body {
 }
 
 .hero-title {
-  display: flex;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -124,12 +122,17 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #FFFFFF;
-  justify-content: center;
   padding-top: 200px;
 }
 
-.button {
+.hero-header {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
   background-color: var(--second-font-color);
   font-family: var(--base-font);
   font-weight: 700;
@@ -138,9 +141,7 @@ body {
   letter-spacing: 0.06em;
   color: #FFFFFF;
   border-radius: 4px;
-  justify-content: center;
   margin-top: 30px;
-  outline: 1px solid red;
 }
 
 .button:hover {
@@ -271,9 +272,13 @@ body {
 }
 
 .footer-logo-title {
+  text-decoration: none;
   padding-top: 60px;
   display: block;
   margin-bottom: 20px;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer-logo-span {

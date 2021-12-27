@@ -228,6 +228,8 @@ header {
 .team-list {
   display: flex;
   padding-bottom: 94px;
+  justify-content: center;
+  align-items: center;
 } 
 
 .team-item {
@@ -241,13 +243,15 @@ header {
 }
 
 .team-title {
-  display: flex;
-  justify-content: center;
+ 
   margin-bottom: 50px;
   padding-top: 94px;
+  text-align: center;
 }
 
 .team-name {
+  display: flex;
+  flex-direction: column;
   color: var(--title-font-color);
   font-weight: 500;
   font-size: 16px;
@@ -255,6 +259,7 @@ header {
   letter-spacing: 0.03em;
   margin-top: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .team-position {
@@ -262,6 +267,7 @@ header {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--base-font-color);
+  text-align: center;
   padding-bottom: 30px; 
 }
 

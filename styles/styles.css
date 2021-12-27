@@ -23,10 +23,13 @@ body {
   margin-right: auto;
 }
 
+header {
+  border-bottom: 1px solid #ECECEC;  
+}
+
 .header {
   display: flex;
 }
-
 
 .logo {
   padding-top: 24px;
@@ -312,14 +315,22 @@ body {
   margin-bottom: 9px;
 }
 
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 94px;
+}
 
  .filter-items {
+  display: flex;
   text-decoration: none;
   list-style-type: none;
   cursor: pointer;
  }
 
  .filter-item {
+  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -327,10 +338,21 @@ body {
   letter-spacing: 0.03em;
   background: #F5F4FA;
   border-radius: 4px;
+  border-color: transparent;
  }
+
+ .filter-item {
+  margin-left: 8px;
+}
+
+/* .filter-item:not(:first-child) {
+  margin-left: 30px;
+} */
+
 
  .filter-item:hover, .filter-item:focus {
    cursor: pointer;
+   border: 1px solid var(--title-font-color);
  }
 
  .filter-item:active {
@@ -338,23 +360,54 @@ body {
    color: #FFFFFF;
  }
 
+.portfolio {
+  display: flex;
+}
  .portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
   text-decoration: none;
   list-style-type: none;
   cursor: pointer;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: -30px;
+  margin-bottom: -30px;
+ }
+
+ .portfolio-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+  flex-direction: column;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+ }
+
+ .port-image {
+   display: block;
+   margin-right: 0px;
  }
 
  .portfolio-title {
+   display: flex;
+   flex-direction: column;
   font-weight: bold;
   font-size: 18px;
   line-height: 2.0;
   letter-spacing: 0.06em;
   color: var(--title-font-color);
+  padding-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
  }
 
  .portfolio-description {
+   display: flex;
+   flex-direction: column;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--base-font-color);
+  padding-bottom: 20px;
  }

@@ -283,6 +283,7 @@ header {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
+  color: var(--second-font-color);
 }
 
 .footer-logo-span {
@@ -387,7 +388,6 @@ header {
 
  .port-image {
    display: block;
-   margin-right: 0px;
  }
 
  .portfolio-title {

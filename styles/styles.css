@@ -385,17 +385,18 @@ header {
   margin-left: 30px;
   margin-bottom: 30px;
   flex-direction: column;
-  border: 1px solid #EEEEEE;
+  outline: 1px solid #EEEEEE;
   box-sizing: border-box;
  }
 
  .port-image {
    display: block;
+   width: 100%;
  }
 
  .portfolio-title {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   font-weight: bold;
   font-size: 18px;
   line-height: 2.0;
@@ -407,8 +408,8 @@ header {
  }
 
  .portfolio-description {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;

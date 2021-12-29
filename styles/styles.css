@@ -118,6 +118,8 @@ header {
 .hero {
   background-color: #2f303a;
   height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-header {
@@ -125,8 +127,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -157,19 +157,26 @@ header {
 }
 
 /* ADVANTAGES SECTION */
+
+.advantages {
+  padding-top: 94px;
+}
+
 .advant {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   /* margin-left: -30px; */
-  margin-top: 94px;
-  width: 1200px;
 }
 
 .advant > .advant-item {
   font-family: var(--base-font);
   margin-left: 30px;
   flex-basis: calc(100% / 4 - 30px);
+}
+
+.advant-item:first-child {
+  margin-left: 0px;
 }
 
 .advant-item-title {
@@ -191,6 +198,10 @@ header {
 }
 
 /* WWD SECTION */
+.wwd {
+  padding-bottom: 94px;
+}
+
 .wwd-title {
   font-weight: 700;
   font-size: 36px;
@@ -201,23 +212,25 @@ header {
   margin-bottom: 50px;
 }
 
-.wwd-item {
-  list-style-type: none;
-  margin-left: 30px;
-}
-
 .wwd-list {
   display: flex;
   justify-content: space-evenly;
-  margin-left: -30px;
 }
 
-.wwd {
-  margin-top: 94px;
-  margin-bottom: 94px;
+.wwd-item {
+  list-style-type: none;
+}
+
+.wwd-item:not(:first-child) {
+  margin-left: 30px;
 }
 
 /* TEAM SECTION */
+.team-section {
+  padding: 94px 0;
+  background-color: #f5f4fa;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -225,13 +238,9 @@ header {
   letter-spacing: 0.03em;
 }
 
-.team {
-  background-color: #f5f4fa;
-}
-
 .team-list {
   display: flex;
-  padding-bottom: 94px;
+
   justify-content: center;
   align-items: center;
 }
@@ -246,22 +255,28 @@ header {
 .team-item:not(:first-child) {
   margin-left: 30px;
 }
+.team {
+}
 
 .team-title {
   margin-bottom: 50px;
-  padding-top: 94px;
   text-align: center;
 }
 
-.team-name {
+.team-member-info {
   display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
   flex-direction: column;
+}
+
+.team-name {
   color: var(--title-font-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -272,18 +287,16 @@ header {
   letter-spacing: 0.03em;
   color: var(--base-font-color);
   text-align: center;
-  padding-bottom: 30px;
 }
 
 /* PORTFOLIO FILTER SECTION */
 .filter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 94px;
 }
 
 .filter-items {
+  justify-content: center;
+  align-items: center;
   display: flex;
   text-decoration: none;
   list-style-type: none;
@@ -325,6 +338,8 @@ header {
 
 .portfolio {
   display: flex;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 .portfolio-items {
   display: flex;
@@ -332,8 +347,6 @@ header {
   text-decoration: none;
   list-style-type: none;
   cursor: pointer;
-  padding-top: 50px;
-  padding-bottom: 94px;
 }
 
 .portfolio-item:nth-child(n + 6) {

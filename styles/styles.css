@@ -255,8 +255,6 @@ header {
 .team-item:not(:first-child) {
   margin-left: 30px;
 }
-.team {
-}
 
 .team-title {
   margin-bottom: 50px;
@@ -266,7 +264,7 @@ header {
 .team-member-info {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  padding-top: 30px;
   padding-bottom: 30px;
   flex-direction: column;
 }
@@ -393,6 +391,7 @@ header {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  font-weight: 400;
   color: var(--base-font-color);
   padding-bottom: 20px;
 }

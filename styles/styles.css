@@ -380,9 +380,7 @@ header {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-font-color);
-  padding-left: 24px;
-  margin-top: 20px;
-  margin-bottom: 4px;
+  
 }
 
 .portfolio-description {
@@ -393,7 +391,11 @@ header {
   letter-spacing: 0.03em;
   font-weight: 400;
   color: var(--base-font-color);
-  padding-bottom: 20px;
+ 
+}
+
+.portfolio-item-data {
+  padding: 20px 24px;
 }
 
 /* FOOTER */

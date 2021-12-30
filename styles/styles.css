@@ -200,12 +200,13 @@ header {
 /* WWD SECTION */
 .wwd {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .wwd-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.66;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
@@ -214,7 +215,6 @@ header {
 
 .wwd-list {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .wwd-item {
@@ -234,7 +234,7 @@ header {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.66;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
